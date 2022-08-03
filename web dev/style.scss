@@ -1,0 +1,22 @@
+#wrap>div:nth-child(2) 
+{
+
+
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color:yellow;
+}
+.container p {
+    color:yellow;
+    background-color:yellow;
+}
+
+#wrap>div:nth-child(2) > p & pre
+{
+    color:black;
+    background-color:white;
+}
